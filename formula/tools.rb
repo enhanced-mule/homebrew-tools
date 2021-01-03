@@ -13,6 +13,6 @@ class Tools < Formula
 
   # Homebrew requires tests.
   test do
-    assert_match "1.2.7-beta3", shell_output("#{bin}/fed -v", 2)
+    assert_match "1.2.7-beta3", shell_output("#{bin}/emt -V", 2)
   end
 end
