@@ -8,11 +8,7 @@ class Emt < Formula
   head "https://github.com/enhanced-mule/homebrew-tools.git"
 
   def install
-    bin.install "bin/emt"
+    bin.install "emt"
   end
 
-  # Homebrew requires tests.
-  test do
-    assert_match "1.2.7-beta3", shell_output("#{bin}/emt -V", 2)
-  end
 end
