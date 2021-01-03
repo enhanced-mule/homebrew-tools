@@ -8,9 +8,9 @@ class Emt < Formula
   head "https://github.com/enhanced-mule/homebrew-tools.git"
 
   def install
-    system "ls", "-al"
-    system "more", "emt"
-    bin.install "emt"
+    system "pwd"
+    system "ls", "bin"
+    bin.install "bin/emt"
   end
 
 end
