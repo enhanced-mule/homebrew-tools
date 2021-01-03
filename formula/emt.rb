@@ -11,5 +11,7 @@ class Emt < Formula
     libexec.install "bin", "lib", "README.md"
     bin.write_exec_script libexec/"bin/emt"
   end
-
+  test do
+    assert_match "1.3.0-alpha1", shell_output("#{bin}/emt -V", 2)
+  end
 end
