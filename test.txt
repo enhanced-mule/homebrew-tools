@@ -4,7 +4,7 @@ class Emt < Formula
   desc "Enhanced Mule Tools CLI"
   homepage "https://www.enhanced-mule.com"
   url "https://repo1.maven.org/maven2/com/aeontronix/enhanced-mule/enhanced-mule-tools-cli/1.3.0-alpha3-SNAPSHOT/enhanced-mule-tools-cli-1.3.0-alpha3-SNAPSHOT-dist.tbz2"
-  sha256 "ea68a09212d1131b22bc1a2343e03a88008746aa433f68e8b39040291cee69fd"
+  sha256 "a27dbb435b8f18f945a7e9e30d01303646bb8ab649978d9dff6fffa720fda3b0"
   head "https://github.com/enhanced-mule/homebrew-tools.git"
 
   def install
